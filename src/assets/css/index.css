@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Verdana';
+    src: url('./../fonts/Verdana.woff') format('woff'),
+    url('./../fonts/Verdana.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    font-family: 'Verdana';
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.main-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: #EBEDF2;
+}
+
+
+.main-wrapper .main__aside{
+  width: 293px;
+  min-width: 293px;
+  background: #fff;
+}
+.main-wrapper .main__content{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
